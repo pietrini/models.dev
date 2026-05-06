@@ -1,0 +1,21 @@
+name = "Apertus 70B Instruct 2509"
+release_date = "2025-09"
+last_updated = "2025-09"
+attachment = false
+reasoning = false
+temperature = true
+tool_call = false
+open_weights = true
+status = "beta"
+
+[cost]
+input = 0.70
+output = 2.50
+
+[limit]
+context = 65_536
+output = 8_192
+
+[modalities]
+input = ["text"]
+output = ["text"]
