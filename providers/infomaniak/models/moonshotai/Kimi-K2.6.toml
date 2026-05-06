@@ -1,4 +1,5 @@
 name = "Kimi K2.6"
+status = "beta"
 
 [extends]
 from = "moonshotai/kimi-k2.6"
@@ -7,3 +8,12 @@ omit = ["cost.cache_read"]
 [cost]
 input = 0.60
 output = 3.00
+
+[limit]
+context = 256_000
+input = 256_000
+output = 32_768
+
+[modalities]
+input = ["text", "image"]
+output = ["text"]

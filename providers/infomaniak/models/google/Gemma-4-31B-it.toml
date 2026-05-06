@@ -1,4 +1,5 @@
 name = "Gemma 4 31B"
+status = "beta"
 
 [extends]
 from = "google/gemma-4-31b-it"
