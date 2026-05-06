@@ -6,3 +6,8 @@ from = "google/gemma-4-31b-it"
 [cost]
 input = 0.20
 output = 0.40
+
+[limit]
+context = 100_000
+input = 100_000
+output = 8_192
